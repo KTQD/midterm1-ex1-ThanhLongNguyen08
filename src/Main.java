@@ -1,11 +1,12 @@
 public class Main {
     public static void main(String[] args) {
 
-        MP3 mp3;
-        mp3.showInfo();
+        Item book = new Book("The Godfather","","1111",5,"Mario Puzzo",462,"novel");
+        Item mp3 = new MP3("Always with me","","2222",100, Duration.ofMinutes(5));
 
-        Book book;
         book.showInfo();
+        mp3.showInfo();
+    }
 
     }
 }
